@@ -12,6 +12,7 @@
 
 <script>
     import WebSocketClient from "../core/WebSocketClient";
+    import config from "../../snake.config"
 
     export default {
         name: "Snake",
@@ -31,7 +32,7 @@
                 tileCount: 20,
                 wsConnection: null,
                 connectedToWs: false,
-                wsUrl: 'ws://0.0.0.0:8080',
+                wsUrl: config.websocketUrl,
                 wsDirection: 'Aucune',
                 score: 0,
                 colorSnake: 'lime'
