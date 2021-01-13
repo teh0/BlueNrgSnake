@@ -17,6 +17,7 @@ Sur ce repo, il n'y a que le code du serveur Python et de l'application front
 
 (J'ai run les commandes avec python2 car j'ai rencontré des problèmes avec python3).
 
+## Commentaires
 * J'ai repris le code du Serveur Websocket et j'y ai ajouté deux classes pour gérer les données de l'accéléromètre
 envoyé par l'app IOS
 * Elles se trouvent dans le dossier `core`
